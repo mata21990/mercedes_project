@@ -1,0 +1,247 @@
+@font-face {
+    font-family: Poppins-light;
+    src: url(fonts/Poppins-Light.woff2);
+    font-size: normal;
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Poppins-semibold;
+    src: url(fonts/Poppins-SemiBold.woff2);
+    font-size: normal;
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Poppins-thin;
+    src: url(fonts/Poppins-Thin.woff2);
+    font-size: normal;
+    font-weight: 50;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    background-color: #EEF4ED;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #0B2545;
+    font-family: Poppins-semibold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.headline {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: white;
+    column-gap: 125px;
+    align-items: center;
+}
+
+.headline img {
+    width: 50px;
+    height: 50px;
+    margin: 15px 0px 15px 40px
+}
+
+.headline div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 125px;
+    margin: 15px 40px 15px 0px;
+    row-gap: 30px;
+    padding: 0;
+}
+
+.menucim {
+    font-family: Poppins-light;
+    font-size: 20px;
+    color: #13315C;
+}
+
+.nav_but {
+    font-family: Poppins-light;
+    font-size: 20px;
+    background-color: #0B2545;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    transition: background-color 0.2s linear;
+}
+
+.nav_but:hover {
+    color: #0B2545;
+    background-color: #8DA9C4;
+    font-weight: bold;
+}
+
+.menucim:after {
+    width: 0%;
+    height: 3px;
+    margin: auto;
+    display: block;
+    content: "";
+    background-color: transparent;
+    transition: 0.5s ease;
+}
+
+.menucim:hover:after {
+    width: 100%;
+    background-color: #0B2545;
+}
+
+.modellek {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.modellek div {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 450px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Poppins-light;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.modellek div img {
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.modellek div p {
+    font-family: Poppins-thin;
+    text-align: center;
+    margin: 25px 20px 25px 20px;
+    font-size: 20px;
+}
+
+.modellek div a {
+    font-family: Poppins-semibold;
+    display: block;
+    background-color: #0B2545;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 150px 40px 150px;
+    padding: 10px 20px 10px 20px;
+    transition: background-color 0.2s linear;
+    
+}
+
+.modellek div a:hover {
+    color: #0B2545;
+    background-color: #8DA9C4;
+}
+
+.labjegyzek {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: #0B2545;
+    height: auto;
+    margin-top: 30px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+
+.felso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    column-gap: 15px;
+    row-gap: 25px;
+}
+
+.felso img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.also {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    column-gap: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: right;
+    font-family: Poppins-light;
+    font-size: 16px;
+    color: #EEF4ED;
+    margin-top: 10px;
+}
+
+.felso h1 {
+    font-family: Poppins-semibold;
+    color: #EEF4ED;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    letter-spacing: 3px;
+}
+
+.ceginfo {
+    display: block;
+    text-align: left; 
+}
+
+.ceginfo h1 {
+    font-family: Poppins-semibold;
+    color: #EEF4ED;
+    font-size: 22px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.also a {
+    font-family: Poppins-thin;
+    color: #EEF4ED;
+    font-size: 18px;
+}
